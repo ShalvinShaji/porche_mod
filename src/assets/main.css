@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid green; */
+  font-weight: normal;
+}

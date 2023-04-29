@@ -104,7 +104,7 @@ export default ({
           background:"./assets/map-world-map-wallpaper-a9b0588db1da2d9b960778af10a1d60d.jpg" ,
           power: "243 kW/330 PS",
           time: "5.3",
-          speed: "268"
+          speed: "268",
         }
     ]
     }
@@ -123,7 +123,8 @@ export default ({
           this.current= id-1;
         }
       },
-}))
+})
+
 </script>
 
 

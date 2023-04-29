@@ -8,7 +8,7 @@
         <li>SHOP</li>
         <li>MORE</li>
         <li><button class="btn btn-secondary">RPC DEALER</button></li>
-        <li><button class="btn btn-light ">VIEW GARAGE</button></li>
+        <li><button @click="gallery"  class="btn btn-light " >VIEW GALLERY</button></li>
       </ul>
     </header>
 </template>
@@ -17,7 +17,11 @@
 
 export default ({
     name:'Header',
-
+    methods:{
+      gallery(){
+        document.querySelector('.gallery').style.display= 'inline';
+      }
+    }
 })
 </script>
 

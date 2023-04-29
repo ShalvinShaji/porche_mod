@@ -74,9 +74,9 @@ export default ({
   }
   img{
     position: absolute;
-    max-width: 800px;
+    max-width: 50%;
     max-height: 70%;
-    margin-left: 3%;
+    margin-left: 7%;
     /* margin-top: 80px; */
     top: 25%;
     /* right: 18%; */
@@ -87,7 +87,7 @@ export default ({
   .name{
     font-family: 'Gruppo', cursive;
     position: absolute;
-    font-size: 850%;
+    font-size: 950%;
     font-weight:100;
     margin-left: auto;
     margin-right: auto;
@@ -164,4 +164,13 @@ export default ({
   transform: translateX(30px);
 }
 
+@media(max-width: 1440px){
+  .name{
+    font-size: 850%;
+  }
+  .img{
+    margin-left: 3%;
+  }
+
+}
 </style>

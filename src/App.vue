@@ -7,7 +7,7 @@
     <img src="./assets/map-world-map-wallpaper-a9b0588db1da2d9b960778af10a1d60d.jpg" alt="background"     class="container2">
       
     
-
+    <Gallery />
     <Header />
     <Sidebar @update="updateCurrent" :cars="cars" :current="current"/>
     <Card @next="nextItem" @prev="preItem" :cars="cars" :current="current" />
@@ -20,7 +20,7 @@
 import Card from './components/icons/Card.vue';
 import Header from './components/icons/Header.vue';
 import Sidebar from './components/icons/Sidebar.vue';
-
+import Gallery from './components/Gallery.vue'
 
 export default ({
   name:'App',
@@ -29,7 +29,7 @@ export default ({
     Header,
     Sidebar,
     Card,
-    // Footer,
+    Gallery,
   },
 
   data(){
@@ -122,8 +122,8 @@ export default ({
         updateCurrent(id){
           this.current= id-1;
         }
-      }
-});
+      },
+})
 </script>
 
 
@@ -149,6 +149,4 @@ export default ({
     -webkit-mask-image: var(--mask);
 	  mask-image: var(--mask); */
   }
-  .clip{
-      }
 </style>

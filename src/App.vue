@@ -123,7 +123,7 @@ export default ({
           this.current= id-1;
         }
       },
-})
+}))
 </script>
 
 
